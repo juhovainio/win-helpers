@@ -1,5 +1,5 @@
 # win-helpers
-Collection of scripts and guidelines for setting up remote operated Windows machines
+Collection of scripts and instructions for setting up remote operated Windows machines
 
 ## Checking restart logs
 1. Press `Win+R`
@@ -7,7 +7,7 @@ Collection of scripts and guidelines for setting up remote operated Windows mach
 3. Windows Logs -> Filter -> Code: `1074`
 
 ## Preventing automatic restarts on scheduled automatic updates
-1. `Win+R`
+1. Press `Win+R`
 2. Type `gpedit.msc`
 3. Administrative Templates -> Windows Components -> Windows Update
 4. Enable "No auto-restart with logged on users for scheduled automatic updates installations"
